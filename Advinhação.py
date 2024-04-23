@@ -1,4 +1,4 @@
-    ''' Minha solução '''
+''' Minha solução '''
 import random
 n1 = int(input('\nPensei em um numero e está entre 0 e 5 tente advinhar qual foi, diga ai do lado: '))
 lista = ['0', '1', '2', '3', '4', '5']
