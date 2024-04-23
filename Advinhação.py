@@ -1,8 +1,8 @@
-# Minha solução
+    ''' Minha solução '''
 import random
 n1 = int(input('\nPensei em um numero e está entre 0 e 5 tente advinhar qual foi, diga ai do lado: '))
-list = ['0', '1', '2', '3', '4', '5']
-sorte = random.choice(list)
+lista = ['0', '1', '2', '3', '4', '5']
+sorte = random.choice(lista)
 
 print('\nO numero que eu escolhi foi: {}\n'.format(sorte))
 if n1==sorte:
@@ -25,4 +25,3 @@ if jogador == computador:
     print('PARABÉNS! Você conseguiu vencer!')
 else:
     print('GANHEI! Eu pensei no número {} e não no {}!'.format(computador, jogador))
-    
